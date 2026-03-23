@@ -1,24 +1,23 @@
 # Hi, I'm Taryam William Rodrigue Kabore 👋🇧🇫🇨🇮
 
-> **AI & IoT Engineer** · Final-Year CS Student @ IUGB · Building Industrial Digital Twins  
+> **AI & IoT Developer** · Final-Year CS Student @ IUGB · Building Industrial Digital Twins  
 > 📍 Grand-Bassam, Côte d'Ivoire · Open to Internship Offers · Summer 2026
 
 ---
 
-## 🏗️ What I'm Building
+## 🏗️ What I Built
 
-### 🔬 AI-Powered Mine Ventilation Digital Twin *(Capstone Project)*
+### 🔬 AI-Powered Mine Ventilation Digital Twin *(Capstone Project — Completed)*
 > Real-time mine safety monitoring system that **predicts dangerous gas concentrations 30 minutes in advance** — enabling orderly evacuation instead of panic response.
-
 ```
 IoT Pipeline:  15 sensors × 3 zones → MQTT → TimescaleDB → FastAPI → React/Three.js
-AI Engine:     PyTorch / TensorFlow → TFT (Temporal Fusion Transformer) / LSTM-GRU ensemble  
-Data:          805,460+ real sensor readings collected · 2-second publish interval
+AI Engine:     GRU model (TensorFlow/Keras) — R²=0.914 at 30-min evacuation horizon
+Data:          3,259,140+ real sensor readings · 31 continuous days · 450 readings/min
 Visualization: 3D mine map with real-time sensor overlays (Three.js + React Three Fiber)
-Alert System:  30-minute predictive window with confidence scoring
+Models tested: Baseline, LSTM, GRU, TFT/Transformer, Weighted Ensemble (5-model comparison)
 ```
 
-**Stack:** `FastAPI` `TimescaleDB` `MQTT` `Redis` `React 18` `Three.js` `PyTorch` `TensorFlow` `Docker`
+**Stack:** `FastAPI` `TimescaleDB` `MQTT` `Redis` `React 18` `Three.js` `TensorFlow` `Docker`
 
 ---
 
@@ -35,8 +34,8 @@ Alert System:  30-minute predictive window with confidence scoring
 ![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat&logo=timescale&logoColor=black)
 
 **AI / ML**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 
 **Frontend**  
 ![React](https://img.shields.io/badge/React_18-61DAFB?style=flat&logo=react&logoColor=black)
@@ -54,9 +53,9 @@ Alert System:  30-minute predictive window with confidence scoring
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 🔬 [mine-ventilation-digital-twin](https://github.com/taryam-william-kabore/mine-ventilation-digital-twin) | AI mine safety monitoring — 805K+ sensor readings | FastAPI · TimescaleDB · MQTT · Three.js · PyTorch |
-| 💳 [swift-wallet](https://github.com/taryam-william-kabore/SwiftWallet) | Digital wallet application | React · Node.js |
-| 🔐 [university-access-control](https://github.com/taryam-william-kabore/university-access-control) | Access control system for campus | Python · PostgreSQL |
+| 🔬 [mine-ventilation-digital-twin](https://github.com/taryam-william-kabore/mine-ventilation-digital-twin) | AI mine safety — 3.2M+ readings · GRU R²=0.914 · Completed | FastAPI · TimescaleDB · MQTT · Three.js · TensorFlow |
+| 💳 [SwiftWallet](https://github.com/taryam-william-kabore/SwiftWallet) | P2P mobile money transfer app | Flutter · Node.js |
+| 🔐 [university-access-control](https://github.com/taryam-william-kabore/university-access-control) | QR code campus security system | Flutter · Vue.js · MySQL |
 
 ---
 
