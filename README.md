@@ -1,7 +1,7 @@
 # Hi, I'm Taryam William Rodrigue Kabore 👋🇧🇫🇨🇮
 
-> **AI & IoT Developer** · Final-Year CS Student @ IUGB · Building Industrial Digital Twins  
-> 📍 Grand-Bassam, Côte d'Ivoire · Open to Internship Offers · Summer 2026
+> **AI & IoT Developer** · Final-Year CS Student @ IUGB · Building Industrial Systems That Work  
+> 📍 Grand-Bassam, Côte d'Ivoire · Available August 2026
 
 ---
 
@@ -9,6 +9,7 @@
 
 ### 🔬 AI-Powered Mine Ventilation Digital Twin *(Capstone Project — Completed)*
 > Real-time mine safety monitoring system that **predicts dangerous gas concentrations 30 minutes in advance** — enabling orderly evacuation instead of panic response.
+
 ```
 IoT Pipeline:  15 sensors × 3 zones → MQTT → TimescaleDB → FastAPI → React/Three.js
 AI Engine:     GRU model (TensorFlow/Keras) — R²=0.914 at 30-min evacuation horizon
@@ -59,17 +60,14 @@ Models tested: Baseline, LSTM, GRU, TFT/Transformer, Weighted Ensemble (5-model 
 
 ---
 
-## 🎯 Currently Seeking
+## 🎯 Industries I Build For
 
-I am actively looking for a **final-year internship** (Summer 2026) in:
-
-| Sector | Companies I'm Targeting |
-|--------|------------------------|
-| ⛏️ Mining | Endeavour Mining, SODEMI, Perseus Mining, Fortuna Silver |
+| Sector | Companies |
+|--------|-----------|
+| ⛏️ Mining | Endeavour Mining, SODEMI, Perseus Mining, Fortuna Mining |
 | 🛢️ Oil & Gas | Eni CI, TotalEnergies, Petroci, SLB |
 | 🏦 Fintech | Wave, Ecobank, Djamo, CinetPay |
-| 📡 Telecoms | Orange CI, MTN, Huawei |
-| 🌍 Industrial | Schneider Electric, Siemens, SIFCA |
+| 🌍 Industrial | Schneider Electric, Siemens, Bureau Veritas |
 
 📍 **Locations:** Abidjan (Côte d'Ivoire) · Ouagadougou (Burkina Faso)
 
@@ -92,4 +90,5 @@ I am actively looking for a **final-year internship** (Summer 2026) in:
 
 ---
 
-*"Building AI systems for industries that keep the world running."*
+*"Results speak louder than résumés."*
+
